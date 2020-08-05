@@ -1,0 +1,59 @@
+header {
+    background: url('../img/banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: 500px;
+}
+
+.features-icons {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.features-icons-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #0080ff;
+}
+
+.showcase-img {
+    background-size: cover;
+    min-height: 30rem;
+}
+
+.showcase-text {
+    padding: 8rem;
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.testimonials .testimonials-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px #adb5bd;
+}
+
+.call-to-action {
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 360px) {
+    .showcase-text {
+        padding: 4rem;
+    }
+
+    .showcase-img {
+        min-height: 15rem;
+    }
+}
